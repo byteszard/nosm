@@ -1,0 +1,31 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function sm4_generate_key(a: number): void;
+export function sm4_generate_iv(a: number): void;
+export function sm4_encrypt_ecb(a: number, b: number, c: number, d: number, e: number): void;
+export function sm4_decrypt_ecb(a: number, b: number, c: number, d: number, e: number): void;
+export function sm4_encrypt_cbc(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_decrypt_cbc(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_encrypt_cfb(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_decrypt_cfb(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_encrypt_ofb(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_decrypt_ofb(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_encrypt_ctr(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm4_decrypt_ctr(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm3_digest(a: number, b: number, c: number): void;
+export function __wbg_keypair_free(a: number): void;
+export function keypair_private_key(a: number, b: number): void;
+export function keypair_public_key(a: number, b: number): void;
+export function sm2_generate_keypair(): number;
+export function sm2_encrypt(a: number, b: number, c: number, d: number, e: number): void;
+export function sm2_decrypt(a: number, b: number, c: number, d: number, e: number): void;
+export function sm2_encrypt_c1c2c3(a: number, b: number, c: number, d: number, e: number): void;
+export function sm2_decrypt_c1c2c3(a: number, b: number, c: number, d: number, e: number): void;
+export function sm2_sign(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function sm2_verify(a: number, b: number, c: number, d: number, e: number, f: number): number;
+export function __wbindgen_add_to_stack_pointer(a: number): number;
+export function __wbindgen_free(a: number, b: number): void;
+export function __wbindgen_malloc(a: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number): number;
+export function __wbindgen_exn_store(a: number): void;
